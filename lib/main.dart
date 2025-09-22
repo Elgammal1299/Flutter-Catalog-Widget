@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_catalog_widget/Badge/badge_example.dart';
+import 'package:flutter_catalog_widget/Switch%20ListTile%20Example/switch_list_tile_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: BadgeExample(),
+      home: SwitchListTileExample(),
     );
   }
 }
