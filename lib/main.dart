@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_catalog_widget/Switch%20ListTile%20Example/switch_list_tile_example.dart';
+import 'package:flutter_catalog_widget/Date%20and%20Time/date_picker.dart';
+import 'package:flutter_catalog_widget/NavRail%20Example/nav_rail_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: SwitchListTileExample(),
+      home: MyDatePicker(),
     );
   }
 }
